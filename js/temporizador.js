@@ -41,7 +41,7 @@
 
         $('#restart').click( (e) => {
             clearInterval( clear )
-	    $('#start').text( 'START' ).css('background','rgb(56, 209, 82)')
+	        $('#start').text( 'START' ).css('background','rgb(56, 209, 82)')
             $('#timer').text('00:00:00.00')
             acomulador = 0
         })
