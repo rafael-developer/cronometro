@@ -29,7 +29,7 @@
         $('#start').click((e) => {
             if ($(e.target).text() === 'START') {
                 
-                $(e.target).text('STOP').css('background', 'rgb(216, 22, 22)')
+                $(e.target).text('PAUSE').css('background', 'rgb(216, 22, 22)')
                 clear = setInterval(timer, 10)
             }
             else {
